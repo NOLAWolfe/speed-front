@@ -1,0 +1,61 @@
+/* navbar left */
+.navbar__main{
+    border-bottom: 1px solid #B0B3B8;
+    background-color: #F6F7F9;
+    /* color: #B0B3B8; */
+}
+
+.navbar__leftBar{
+    display: flex;
+}
+
+.navbar__logo{
+    margin: 8px 10px 8px 16px;
+}
+
+.navbar__search{
+    height: 40px;
+    width: 190px;
+    border-radius: 25px;
+    border: 0px;
+    background-color: #A7A9AE ;
+    font-size: 16px;
+    padding-left: 30px;
+    margin-top: 8px;
+}
+
+
+/* navbar middle */
+.navbar__container{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 160px;
+}
+.navbar__tabs{
+    width: 120px;
+    height: 45px;
+}
+.navbar__tabs.active{
+    border-bottom: 3px solid #2374E1;
+}
+
+/* navbar right */
+
+.navbar__right{
+    float: right;
+}
+.navbar__righttab{
+    display: flex;
+    margin-left: 40px;
+}
+
+.navbar__rightimg{
+    margin-top: 10px;
+    margin-right: 10px;
+    max-width: 30px;
+    max-height: 30px;
+}
+.navbar__profilename{
+    margin-top: 20px;
+    font-weight:600;
+}
