@@ -23,10 +23,10 @@ class Layout extends Component {
         return ( 
             <div className="mainpage__container">
                 <Grid container>
-                    <Grid item xs= {0} sm={0} md={3} lg={3} >
+                    <Grid item sx={{display: {xs: 'none', sm: 'none', md:'block', lg:'block'}}} md={3} lg={3}>
                         <LeftSide />
                     </Grid>
-                    <Grid item xs= {12} sm={9} md={6} lg={6} >
+                    <Grid item sx={{display: {xs: 'block', sm: 'block', md:'block', lg:'block'}}}xs= {12} sm={9} md={6} lg={6} >
                         <div className="middleContainer">
 
                             <StatusBar />
@@ -34,7 +34,7 @@ class Layout extends Component {
                             <PostContainer />
                         </div>
                     </Grid>
-                    <Grid item xs= {0} sm={3} md={3} lg={3}>
+                    <Grid item sx={{display: {xs: 'none', sm: 'block', md:'block', lg:'block'}}} sm={3} md={3} lg={3}>
                         <RightSide/>
                     </Grid>
                 </Grid>
