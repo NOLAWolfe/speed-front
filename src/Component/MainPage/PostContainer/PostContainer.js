@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import "./PostContainer.css";
 import Post from './Post';
-import post_img from "../../../../images/post.jpeg"
+import post_img from "../../../images/post.jpeg"
 
 class PostContainer
  extends Component {
