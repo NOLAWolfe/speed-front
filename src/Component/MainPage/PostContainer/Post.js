@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import "./PostContainer.css";
 import { Avatar, Paper} from '@mui/material';
-import image from "../../../../images/post.jpeg";
-import like from "../../../../images/like.png";
-import likebutton from "../../../../images/likebutton.png";
-import commentbutton from "../../../../images/comment.png";
-import sharebutton from "../../../../images/share.png";
+import image from "../../../images/post.jpeg";
+import like from "../../../images/like.png";
+import likebutton from "../../../images/likebutton.png";
+import commentbutton from "../../../images/comment.png";
+import sharebutton from "../../../images/share.png";
 
 
 

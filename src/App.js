@@ -1,9 +1,10 @@
 
 import React from 'react';
 import './App.css';
-import Layout from './Component/NavBar/MainPage/Layout';
+import Layout from './Component/MainPage/Layout.js';
 import NavBar from './Component/NavBar/NavBar';
 import { CssBaseline, ThemeProvider, createTheme } from '@mui/material';
+import LoginHome from './Component/LoginHome/LoginHome';
 
 const darkTheme = createTheme({
   palette: {
@@ -16,11 +17,11 @@ function App() {
     <div className="App">
       <ThemeProvider theme={darkTheme}>
         <CssBaseline />
-        
       </ThemeProvider>
-
-      <NavBar />
-      <Layout />
+{/* <LoginHome/> */}
+      {
+        localStorage.getItem("user")==undefined ? <LoginHome/> : <span><NavBar/><Layout/></span>
+      }
     </div>
   );
 }

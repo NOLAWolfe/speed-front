@@ -2,9 +2,9 @@ import { Avatar, Paper } from '@mui/material';
 import React, { Component } from 'react';
 import "./UploadSection.css";
 
-import live from "../../../../images/video.png"
-import image from "../../../../images/image.png"
-import feelings from "../../../../images/feelings.png"
+import live from "../../../images/video.png"
+import image from "../../../images/image.png"
+import feelings from "../../../images/feelings.png"
 
 class UploadSection extends Component {
     
