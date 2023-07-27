@@ -1,10 +1,22 @@
 .statusbar__container{
     display: flex;
-    width: 600px;
+    /* width: 600px; */
+    height: 100%;
+    width: 100%;
     overflow-x: scroll;
+}
+.statusbar__container::-webkit-scrollbar{
+    display: none;
 }
 
 .statusbar__status{
+    /* overflow: auto; */
+    height: 100%;
+    width: 100%;
+}
+
+.statusbar__paper{
+    
     height: 200px;
     width: 110px;
     margin: 20px 5px;

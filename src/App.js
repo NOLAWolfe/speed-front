@@ -20,7 +20,7 @@ function App() {
       </ThemeProvider>
 {/* <LoginHome/> */}
       {
-        localStorage.getItem("user")==undefined ? <LoginHome/> : <span><NavBar/><Layout/></span>
+        localStorage.getItem("user")==undefined ? <LoginHome/> : <span><Layout/></span>
       }
     </div>
   );

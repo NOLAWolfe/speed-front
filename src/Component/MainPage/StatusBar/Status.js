@@ -11,8 +11,8 @@ class Status
     state = {  }
     render() { 
         return ( 
-        <div>
-            <Paper className='statusbar__status'/>
+        <div className='statusbar__status'>
+            <Paper className='statusbar__paper'/>
         </div> );
     }
 }
