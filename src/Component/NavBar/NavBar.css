@@ -1,5 +1,10 @@
 /* navbar left */
 .navbar__main{
+    position: fixed;
+
+
+
+    top: 0;
     border-bottom: 1px solid #B0B3B8;
     background-color: #F6F7F9;
     /* color: #B0B3B8; */
@@ -29,11 +34,15 @@
 .navbar__container{
     display: flex;
     margin-top: 10px;
-    margin-left: 160px;
+    /* margin-left: auto; */
+    max-width: 600px !important;
+    margin: auto;
+    padding-top: 10px;
 }
 .navbar__tabs{
     width: 120px;
     height: 45px;
+    /* margin: auto; */
 }
 .navbar__tabs.active{
     border-bottom: 3px solid #2374E1;
@@ -41,8 +50,9 @@
 
 /* navbar right */
 
-.navbar__right{
+.navbar__rightcontainer{
     float: right;
+    margin-right: 20px;
 }
 .navbar__righttab{
     display: flex;
@@ -51,8 +61,9 @@
 }
 .navbar__rightbutton{
     color: black;
-    margin-top: 10px;
-    margin-left: 40px;
+    margin-top: 5px;
+    margin-left: 30px;
+    margin-right: 16px;
 }
 
 .navbar__rightimg{
@@ -63,6 +74,6 @@
 }
 .navbar__profilename{
     color: black;
-    margin-top: 20px;
+    margin-top: 15px;
     font-weight:600;
 }

@@ -1,13 +1,18 @@
 .rightside__container{
     float: right;
+    position: fixed;
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-top:58px;
 }
 .rightside__header{
     margin-top: 20px;
     display: flex;
-    margin-left: 90px;
+    margin-left: 200px;
     font-weight: 600;
     font-size: 16px;
 }
 .rightside__content{
-    margin-left: 80px;
+    margin-left: 185px;
 }
